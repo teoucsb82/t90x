@@ -8,7 +8,10 @@ Gem::Specification.new do |s|
   s.email       = 'teo@dellamico.com'
   s.files       = [
                     "lib/t90x.rb",
+                    "lib/t90x/day.rb",
                     "lib/t90x/move.rb",
+                    "lib/t90x/round.rb",
+                    "lib/t90x/rounds/type.rb",
                     "lib/t90x/workout.rb",
                     "lib/t90x/workouts/moves_list.rb",
                     "lib/t90x/workouts/name.rb",

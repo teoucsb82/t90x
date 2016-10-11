@@ -1,5 +1,7 @@
 class T90X
   class Workout
+    attr_reader :name
+    
     def initialize(name)
       @name = name
     end

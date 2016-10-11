@@ -6,6 +6,10 @@ describe T90X::Workout do
     @workout = T90X::Workout.new(T90X::Workout::Name::CHEST_AND_BACK)
   end
 
+  describe '#names' do
+    it { assert_equal @workout.name, T90X::Workout::Name::CHEST_AND_BACK }
+  end
+
   describe '#moves' do
     it 'returns an array of moves' do
       assert @workout.moves.length > 0
